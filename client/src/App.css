@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.App .container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.App nav{
+  height: 100vh !important;
+  width: 10% !important;
+  flex-direction: column;
+} 
+
+.App nav .collapse, .App nav .collapse ul{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start !important;
+}
